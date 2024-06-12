@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+.animate-spin-slow {
+  animation: spin 40s linear infinite; /* Adjust the duration to decrease the speed */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
